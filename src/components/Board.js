@@ -12,7 +12,7 @@ const Board = () => {
     newSwquares[i] = xIsNext ? 'X': "O";
     setSquares(newSwquares);
     setXIsNext(!xIsNext);
-  }
+  }  
 
   
     const renderSquare = (i) => {
@@ -38,7 +38,7 @@ const Board = () => {
             {renderSquare(8)}
         </div>
       </div>
-    )
+    )  
 }
 
 

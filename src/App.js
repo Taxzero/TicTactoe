@@ -37,7 +37,7 @@ function App() {
   }
   else{
     status = `Next player: ${xIsNext ? 'X':'O'}`;
-  }
+  }  
 
   const handleClick = (i) => {
     const newHistory = history.slice(0, stepNumber + 1);

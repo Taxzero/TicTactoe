@@ -25,7 +25,7 @@ const Board = ({squares, onClick}) => {
             {renderSquare(7)}
             {renderSquare(8)}
         </div>
-      </div>
+      </div>  
     )  
 }
 
